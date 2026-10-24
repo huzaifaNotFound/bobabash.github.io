@@ -1,22 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Boba Bash Greater Noida</title>
-  <meta name="robots" content="noindex">
-  <meta name="theme-color" content="#fbf6e8">
-  <link rel="icon" href="/icon.png">
-  <link rel="stylesheet" href="/go.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/output.css">
+  <title>Spooky Board</title>
 </head>
-<body>
-  <main>
-    <img src="/boba-bash.webp" alt="Hack Club's Boba Bash" width="300">
-    <h1 id="t">Boba Bash Greater Noida</h1>
-    <p id="s">Hack Club</p>
-    <div class="bar"><i id="bar"></i></div>
-  </main>
-  <div class="foot" id="n"></div>
-  <script src="/go.js"></script>
+
+<body class="min-h-screen flex flex-col items-center justify-center gap-6 bg-black p-6">
+
+  <h1 class="text-4xl font-bold text-amber-900/70 mb-4">
+    Spooky Board
+  </h1>
+
+  <div id="image-container" class="flex flex-col items-center gap-6 w-full max-w-2xl">
+  </div>
+
+  <button
+    id="btn"
+    class="px-6 py-3 rounded-lg bg-white text-black font-bold text-lg shadow-md transition-colors cursor-pointer hover:bg-gray-200"
+  >
+    Click to get a spooky image
+  </button>
+
+  <script src="./src/script.js"></script>
 </body>
 </html>

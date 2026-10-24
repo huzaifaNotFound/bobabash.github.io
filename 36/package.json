@@ -1,0 +1,26 @@
+{
+  "name": "boba-bash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss src/input.css -o dist/output.css",
+    "watch:css": "postcss src/input.css -o dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huzaifaNotFound/boba-bash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/huzaifaNotFound/boba-bash/issues"
+  },
+  "homepage": "https://github.com/huzaifaNotFound/boba-bash#readme",
+  "devDependencies": {
+    "postcss-cli": "^12.0.0"
+  }
+}
